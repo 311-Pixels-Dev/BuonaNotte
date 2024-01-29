@@ -1,0 +1,52 @@
+
+<div class="card">
+    <p-progressBar mode="indeterminate" [style]="{'height': '3px'}"></p-progressBar>
+</div>
+<div class="flex flex-wrap align-items-center justify-content-center">
+    <div class=" w-20rem p-1 m-1">
+        <stats-doughnut></stats-doughnut>
+    </div>
+    <div class="border-round w-20rem p-1 m-1">
+        <div class="card">
+            <div class="border-round border-1 surface-border p-4 surface-card">
+                <div class="flex mb-3">
+                    <p-skeleton shape="circle" size="4rem" styleClass="mr-2"></p-skeleton>
+                    <div>
+                        <div class="flex justify-content-left">
+                            <span class="justify-content-center mb-2">Pinco Pallino</span>
+                         </div>
+                        <div class="flex justify-content-left">
+                           <i class="pi pi-globe mr-2"></i>
+                           <span class="justify-content-center mb-2">Italy</span>
+                        </div>
+                    </div>
+                </div>
+                <p-divider></p-divider>
+                <p-skeleton width="100%" height="100px"></p-skeleton>
+            </div>
+        </div>
+    </div>
+    <div class="border-round w-20rem p-1 m-1">
+        <div class="card">
+            
+        </div>
+    </div>
+</div>
+
+<div class="border-round border-1 surface-border p-4 surface-card">
+    <div class="flex mb-3">
+        <div>
+            <div class="flex justify-content-left">
+                <span class="justify-content-center mb-2">Sleeping Analystics</span>
+            </div>
+            <div class="flex justify-content-left">
+               <i class="pi pi-home mr-2"></i>
+               <span class="justify-content-center mb-2">P. Pallino</span>
+            </div>
+        </div>
+    </div>
+    <p-divider></p-divider>
+    <div width="75%" height="120px">
+        <stats-lines></stats-lines>
+    </div>
+</div>
